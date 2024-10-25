@@ -1,6 +1,6 @@
 ---
 title: "30538 Problem Set 3: git pair"
-author: "Charisma Lambert"
+author: "Charisma B. Lambert"
 format: 
   pdf:
     include-in-header: 
