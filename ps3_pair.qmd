@@ -1,6 +1,6 @@
 ---
 title: "30538 Problem Set 3: git pair"
-author: "Charisma Lambert"
+author: "Prashanthi Subbiah"
 format: 
   pdf:
     include-in-header: 
@@ -28,7 +28,7 @@ data = pd.DataFrame(np.random.rand(100), columns=['Random Numbers'])
 
 def preview_data(df):
   head = df.head()
-    
+  describe = df.describe()
   histogram = alt.Chart(df).mark_bar().encode(
     alt.X('Random Numbers:Q', bin=True),
     alt.Y('count():Q')
@@ -36,10 +36,11 @@ def preview_data(df):
       title='Histogram of Random Numbers'
   )
     
-  return [head, histogram]
+  return [head, describe, histogram]
 
 result = preview_data(data)
 
-print(result[0]) 
-result[1].display() 
+print(result[0])
+print(result[1])
+result[2].display() 
 ```
