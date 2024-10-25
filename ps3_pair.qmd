@@ -1,6 +1,8 @@
 ---
 title: "30538 Problem Set 3: git pair"
-author: "Prashanthi Subbiah"
+
+author: "Charisma B. Lambert and Prashanthi Subbiah"
+
 format: 
   pdf:
     include-in-header: 
